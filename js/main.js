@@ -105,7 +105,7 @@ function YouTubeAPIExample() {
 	 */
 	function parseVideoFeed(feed) {
 		$.getJSON(feed, function(data) {
-			console.log('json');
+			//console.log('json');
 			if (data['feed']) {
 				$.each(data['feed']['entry'], function(i, entry) {
 					//Create video thumbs
