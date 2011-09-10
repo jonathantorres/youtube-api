@@ -1,41 +1,27 @@
-/*Global Stuff*/
+/* Global Stuff ------------------------------------------- */
 *, html, body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Times New Roman', Times, serif;
 	color: #333;
 }
-h1 {
-	font-size: 28px;
-}
-h3 {
-	font-size: 22px;
-}
+h1 { font-size: 28px; }
+h3 { font-size: 22px; }
 
-/*Header*/
-#header {
-	height: 75px;
-	background-color: #000;
-}
-#header img {
-	padding-top: 15px;
-}
+/* Header ------------------------------------------- */
+#header { height: 75px; background-color: #000; }
+#header img { padding-top: 15px; }
 
-/*Title Search Container*/
-#title-search-container {
-	margin-top: 50px;
-	overflow: hidden;
-}
+/* Title Search Container ------------------------------------------- */
+#title-search-container { margin-top: 50px; overflow: hidden; }
 #title-search-container p {	
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	padding-top: 10px;
 }
 
-/*Search Form*/
-#search-form { 
-	
-}
+/* Search Form ------------------------------------------- */
+#search-form { }
 #search-form input[type="search"] {
 	color: #CCCCCC;
 	width: 340px;
@@ -45,64 +31,26 @@ h3 {
 	padding-left: 5px;
 	padding-right: 5px;
 }
-#search-form input[type="search"]:focus {
-	color: #333;
-}
-#search-form input.error {
-	border-color: #FF0000;
-}
+#search-form input[type="search"]:focus { color: #333; }
+#search-form input.error { border-color: #FF0000; }
 
-/*Videos Area*/
-#main-videos {
-	margin-top: 35px;
-	overflow: hidden;
-}
-#main-videos h3 {
-	padding-bottom: 20px;
-}
-#main-videos.container_12 .grid_4 {
-	width: 275px;
-}
+/* Videos Area ------------------------------------------- */
+#main-videos { margin-top: 35px; overflow: hidden; }
+#main-videos h3 { padding-bottom: 20px; }
+#main-videos.container_12 .grid_4 { width: 275px; }
 
-/*Single Video Display*/
-#video-display {
-	margin-bottom: 20px;
-	margin-top: 20px;
-	overflow: hidden;
-}
+/* Single Video Display ------------------------------------------- */
+#video-display { margin-bottom: 20px; margin-top: 20px; overflow: hidden; }
 
-/*Video Comments*/
-.comments {
-	height: 375px;
-	font-size: 12px;
-}
-ul.ui-tabs-nav a {
-	/*font-size: 12px;*/
-}
-#tabs-1 {
-	overflow: auto;
-	height: 300px;
-	padding-left: 10px;
-}
-#comments-list {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-#comments-list li {
-	margin-bottom: 10px;
-	padding-bottom: 10px;
-	border-bottom: solid 1px #CCC;
-}
-#comments-list li:last-child {
-	border-bottom: none;
-}
-#comments-list li span {
-	display: block;
-	color: #666;
-}
+/* Video Comments ------------------------------------------- */
+.comments { height: 375px; font-size: 12px; }
+#tabs-1 { overflow: auto; height: 300px; padding-left: 10px; }
+#comments-list { margin: 0; padding: 0; list-style: none; }
+#comments-list li { margin-bottom: 10px; padding-bottom: 10px; border-bottom: solid 1px #CCC; }
+#comments-list li:last-child { border-bottom: none; }
+#comments-list li span { display: block; color: #666; }
 
-/*Videos Thumbnails*/
+/* Video Thumbnails ------------------------------------------- */
 .video-thumbnail {
 	padding: 10px;
 	margin-bottom: 20px;
@@ -110,8 +58,6 @@ ul.ui-tabs-nav a {
 	border: solid 1px #CCC;
 	border-radius: 10px 10px 10px 10px;
 	height: 100px;
-	
-	/*rollout transition*/
 	-moz-transition: background-color 0.5s ease;
 	-webkit-transition: background-color 0.5s ease;
 	-o-transition: background-color 0.5s ease;
@@ -121,8 +67,6 @@ ul.ui-tabs-nav a {
 .video-thumbnail:hover {
 	background-color: #900;
 	cursor: pointer;
-	
-	/*rollover transition*/
 	-moz-transition: background-color 0.5s ease;
 	-webkit-transition: background-color 0.5s ease;
 	-o-transition: background-color 0.5s ease;
@@ -130,15 +74,12 @@ ul.ui-tabs-nav a {
 	transition: background-color 0.5s ease;
 }
 .video-thumbnail:hover h5, .video-thumbnail:hover p { color: #FFF; }
-.video-thumbnail img {
-	float: left;
-	margin-right: 5px;
-}
+.video-thumbnail img { float: left; margin-right: 5px; }
 .video-thumbnail h5, .video-thumbnail p { font-family: Arial, Helvetica, sans-serif; }
 .video-thumbnail h5 { font-size: 12px; }
 .video-thumbnail p { font-size: 10px; }
 
-/*Preloader*/
+/* Preloader ------------------------------------------- */
 #thumbs-preloader {
 	margin: auto;
 	width: 32px;
@@ -147,7 +88,7 @@ ul.ui-tabs-nav a {
 	background-repeat: no-repeat;
 }
 
-/*Footer*/
+/* Footer ------------------------------------------- */
 #footer {
 	text-align: center;
 	margin-top: 50px;
@@ -156,11 +97,5 @@ ul.ui-tabs-nav a {
 	border-top: solid 1px #CCC;
 	overflow: hidden;
 }
-#footer p {
-	font-size: 12px;
-	font-weight: bold;
-	padding-bottom: 15px;
-}
-#footer img {
-	
-}
+#footer p { font-size: 12px; font-weight: bold; padding-bottom: 15px; }
+#footer img { }
