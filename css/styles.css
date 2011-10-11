@@ -22,7 +22,7 @@ h3 { font-size: 22px; }
 
 /* Search Form ------------------------------------------- */
 #search-form { }
-#search-form input[type="search"] {
+#search-form input[type="text"] {
 	color: #CCCCCC;
 	width: 340px;
 	height: 25px;
@@ -31,7 +31,7 @@ h3 { font-size: 22px; }
 	padding-left: 5px;
 	padding-right: 5px;
 }
-#search-form input[type="search"]:focus { color: #333; }
+#search-form input[type="text"]:focus { color: #333; }
 #search-form input.error { border-color: #FF0000; }
 
 /* Videos Area ------------------------------------------- */

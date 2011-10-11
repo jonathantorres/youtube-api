@@ -1,4 +1,5 @@
-function YouTubeAPIExample() {
+var JonathanTorres = {};
+JonathanTorres.YouTubeAPIExample = new function() {
 	
 	/*
 	 * Start, Get Most Popular Videos Feed
@@ -142,12 +143,12 @@ function YouTubeAPIExample() {
 		//display results
 		parseVideoFeed('http://gdata.youtube.com/feeds/api/videos?q=' + query + '&v=2&alt=json');
 	}
+	
 }
 
 /*
  * Start on Document Ready
  */
 $(document).ready(function(e) {
-	var youTubeApiExample = new YouTubeAPIExample();
-	youTubeApiExample.init(); 
+	JonathanTorres.YouTubeAPIExample.init();
 });
